@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -36,3 +38,43 @@
     transform: rotate(360deg);
   }
 }
+
+
+table, th, td {
+  border: 1px solid #028c70;
+  border-collapse: collapse;
+  padding: 10px;
+}
+th{
+  background-color: #009879;
+  color: white;
+}
+.editContainer{
+  border: 1px solid black;
+  margin: 50px 0px 0px 10px;
+  width: fit-content;
+  padding-right: 200px;
+  visibility: hidden;
+}
+.edit{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  margin: 9px;
+  outline: none;
+}
+input[type=submit]{
+  background-color: #009879;
+  border: none;
+  width: 50%;
+  color: white;
+  padding: 10px 25px;
+  font-size: 17px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
